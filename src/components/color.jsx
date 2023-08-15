@@ -17,5 +17,5 @@ export const Color = ({color}) =>{
     
     }
 
-    return <div className={`w-[300px] h-[300px] ${ color !== "none" ? getTwColor() : 'bg-slate-300' }`}></div>
+    return <div className={`w-[300px] h-[300px] ${ color !== "none" ? getTwColor() : '' }`}></div>
 }
