@@ -40,7 +40,7 @@ export const Dropdown = ({ dropDownList, innitial = "none", handleClick }) => {
         </div>
 
         {/* Dropped down part */}
-        <div className={` ${!active ? "h-0 w-0 overflow-clip p-0" : "flex overflow-scroll h-fit py-2 px-1"} transition-all duration-300  bg-green-500 max-h-[150px] rounded-b-[5px] flex-col`}>
+        <div className={` ${!active ? "h-0 w-0 overflow-clip p-0" : "flex overflow-scroll h-fit py-2 px-1"} ease-out transition-all duration-300  bg-green-500 max-h-[150px] rounded-b-[5px] flex-col`}>
             {list.map((el) => {
 
                 return <div onClick={() => {
