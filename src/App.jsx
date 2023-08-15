@@ -27,9 +27,9 @@ function App() {
 
       <div className='flex flex-row'>
 
-        <Dropdown handleClick={handleClick} dropDownList={List} />
+        <Dropdown handleClick={handleClick} dropDownList={List} innitial = {innitial}/>
         <div className='w-24'></div>
-        <Color color={c} innitial = {innitial}/>
+        <Color color={c}/>
 
       </div>
 
